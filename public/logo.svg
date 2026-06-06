@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="92" viewBox="0 0 360 92" fill="none">
+<rect width="92" height="92" rx="22" fill="#2563EB"/>
+<path d="M24 56h38l10-15h-9l-6 9H40l9-15h-9L24 56Z" fill="white"/>
+<circle cx="35" cy="62" r="7" fill="#0F172A"/><circle cx="66" cy="62" r="7" fill="#0F172A"/>
+<text x="112" y="41" font-family="Arial, sans-serif" font-size="26" font-weight="800" fill="#0F172A">Carroattrezzi</text>
+<text x="112" y="68" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#2563EB">Ferrara</text>
+</svg>
