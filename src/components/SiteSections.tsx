@@ -5,7 +5,7 @@ import Link from "next/link";
 export function Hero() {
   return (
     <section className="relative overflow-hidden bg-slate-950 pb-20 pt-36 lg:min-h-[760px] lg:pt-44">
-      <Image src="/images/towing/hero-tow-truck.jpg" alt="Carroattrezzi a Ferrara per traino auto" fill priority className="object-cover opacity-35" />
+      <Image src="/images/towing/f-hero-main.jpg" alt="Carroattrezzi a Ferrara per traino auto" fill priority className="object-cover opacity-35" />
       <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/85 to-slate-950/25" />
       <div className="container relative">
         <div className="max-w-3xl">
@@ -41,13 +41,13 @@ export function HomeCopy() {
             <p className="mb-4 text-sm font-extrabold uppercase tracking-[0.25em] text-primary">intervento ordinato</p>
             <h2 className="mb-6 text-3xl font-black text-slate-950 lg:text-5xl">Un carroattrezzi a Ferrara deve essere rapido, ma soprattutto affidabile.</h2>
             <div className="space-y-5 text-lg leading-8 text-slate-600">
-              <p>Quando un auto si ferma, il problema non e solo meccanico. C e la sicurezza del conducente, il traffico intorno, l ansia di capire dove portare il veicolo e la necessita di non perdere ore in telefonate inutili. Per questo il servizio nasce da una prima valutazione chiara.</p>
-              <p>Ti chiediamo dove si trova il mezzo, se e in una posizione pericolosa, che tipo di veicolo e coinvolto e quale destinazione preferisci. In base a queste informazioni organizziamo il traino, il recupero o l assistenza piu adatta.</p>
-              <p>Il servizio e utile per guasti improvvisi, incidenti, batterie scariche, pneumatici danneggiati, auto non marcianti, trasporti programmati e veicoli da consegnare in officina. Ogni intervento viene gestito con attenzione al mezzo e con comunicazione semplice.</p>
+              <p>Quando un'auto si ferma, il problema non è solo meccanico. Ci sono la sicurezza del conducente, il traffico intorno, l'ansia di capire dove portare il veicolo e la necessità di non perdere ore in telefonate inutili. Per questo il servizio nasce da una prima valutazione chiara.</p>
+              <p>Ti chiediamo dove si trova il mezzo, se è in una posizione pericolosa, che tipo di veicolo è coinvolto e quale destinazione preferisci. In base a queste informazioni organizziamo il traino, il recupero o l'assistenza più adatta.</p>
+              <p>Il servizio è utile per guasti improvvisi, incidenti, batterie scariche, pneumatici danneggiati, auto non marcianti, trasporti programmati e veicoli da consegnare in officina. Ogni intervento viene gestito con attenzione al mezzo e con comunicazione semplice.</p>
             </div>
           </div>
           <div className="relative h-[520px] overflow-hidden rounded-[2rem] bg-slate-100 shadow-2xl">
-            <Image src="/images/towing/vehicle-recovery.jpg" alt="Recupero veicolo con carroattrezzi" fill className="object-cover" />
+            <Image src="/images/towing/f-home-detail.jpg" alt="Recupero veicolo con carroattrezzi" fill className="object-cover" />
           </div>
         </div>
       </div>
@@ -87,13 +87,13 @@ export function AboutBlock() {
       <div className="container">
         <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
           <div className="relative h-[460px] overflow-hidden rounded-[2rem]">
-            <Image src="/images/towing/mechanic-lift.jpg" alt="Assistenza tecnica per veicolo fermo" fill className="object-cover" />
+            <Image src="/images/towing/f-about-main.jpg" alt="Assistenza tecnica per veicolo fermo" fill className="object-cover" />
           </div>
           <div>
             <p className="mb-4 text-sm font-extrabold uppercase tracking-[0.25em] text-primary">chi siamo</p>
             <h2 className="mb-6 text-3xl font-black text-slate-950 lg:text-5xl">Un servizio locale costruito per risolvere, non per complicare.</h2>
             <div className="space-y-5 text-lg leading-8 text-slate-600">
-              <p>Il nostro lavoro e aiutare chi si trova con un veicolo fermo e ha bisogno di una soluzione concreta. Non promettiamo miracoli: organizziamo il recupero nel modo piu sensato, proteggendo il mezzo e spiegando ogni passaggio.</p>
+              <p>Il nostro lavoro è aiutare chi si trova con un veicolo fermo e ha bisogno di una soluzione concreta. Non promettiamo miracoli: organizziamo il recupero nel modo più sensato, proteggendo il mezzo e spiegando ogni passaggio.</p>
               <p>Il contatto diretto permette di capire subito se serve un carroattrezzi, un trasporto programmato, un supporto sul posto o una consegna in officina. Questa chiarezza riduce stress, attese e incomprensioni.</p>
             </div>
             <div className="mt-8 grid gap-4 sm:grid-cols-3">
@@ -124,10 +124,10 @@ export function Zones() {
 
 export function Faq() {
   const items = [
-    ["Quando conviene chiamare il carroattrezzi?", "Quando il veicolo non puo ripartire in sicurezza, dopo un incidente, con una gomma danneggiata, batteria scarica o guasto che impedisce la marcia."],
-    ["Portate l auto nella mia officina?", "Si, il veicolo puo essere trasportato verso officina, deposito o destinazione concordata, in base alla situazione e alla distanza."],
-    ["Serve indicare la posizione precisa?", "Si. Una posizione chiara aiuta a organizzare l intervento e a ridurre i tempi, soprattutto in aree trafficate o strade provinciali."],
-    ["Intervenite anche per moto?", "Si, gestiamo anche moto e scooter con attenzione al fissaggio e al trasporto."],
+    ["Quando conviene chiamare il carroattrezzi?", "Quando il veicolo non può ripartire in sicurezza, dopo un incidente, con una gomma danneggiata, batteria scarica o guasto che impedisce la marcia."],
+    ["Portate l'auto nella mia officina?", "Sì, il veicolo può essere trasportato verso officina, deposito o destinazione concordata, in base alla situazione e alla distanza."],
+    ["Serve indicare la posizione precisa?", "Sì. Una posizione chiara aiuta a organizzare l'intervento e a ridurre i tempi, soprattutto in aree trafficate o strade provinciali."],
+    ["Intervenite anche per moto?", "Sì, gestiamo anche moto e scooter con attenzione al fissaggio e al trasporto."],
   ];
   return (
     <section className="py-20 lg:py-28">

@@ -15,7 +15,7 @@ export default function NotFound() {
           Pagina non trovata
         </h1>
         <p className="mb-8 text-slate-300">
-          La pagina che cerchi non esiste o e stata spostata. Torna alla home
+          La pagina che cerchi non esiste o è stata spostata. Torna alla home
           per richiedere assistenza stradale a Ferrara.
         </p>
         <Link

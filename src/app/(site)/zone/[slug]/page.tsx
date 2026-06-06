@@ -1,5 +1,6 @@
 import { Cta } from "@/components/SiteSections";
-import { site, zones, zoneText } from "@/lib/site";
+import { site, zones } from "@/lib/site";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
@@ -22,12 +23,14 @@ export default async function ZonePage({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const zone = zones.find((item) => item.slug === slug);
   if (!zone) notFound();
-  const paragraphs = zoneText(zone.name);
+  const paragraphs = zone.body;
 
   return (
     <main className="pt-24">
-      <section className="bg-slate-950 py-20 text-white">
-        <div className="container max-w-4xl">
+      <section className="relative overflow-hidden bg-slate-950 py-20 text-white">
+        <Image src={zone.image} alt={zone.title} fill priority className="object-cover opacity-25" />
+        <div className="absolute inset-0 bg-slate-950/80" />
+        <div className="container relative max-w-4xl">
           <p className="mb-4 text-sm font-extrabold uppercase tracking-[0.25em] text-blue-300">zona servita</p>
           <h1 className="mb-6 text-4xl font-black lg:text-6xl">{zone.title}</h1>
           <p className="text-lg leading-8 text-slate-200">Assistenza stradale, traino auto, recupero veicoli e trasporto verso officina nella zona di {zone.name}.</p>
@@ -45,7 +48,7 @@ export default async function ZonePage({ params }: { params: Promise<{ slug: str
           </article>
           <aside className="h-fit rounded-3xl bg-slate-50 p-7">
             <h2 className="mb-4 text-2xl font-black text-slate-950">Chiama da {zone.name}</h2>
-            <p className="mb-6 text-slate-600">Indica posizione e problema del veicolo: organizziamo l intervento piu adatto.</p>
+            <p className="mb-6 text-slate-600">Indica posizione e problema del veicolo: organizziamo l'intervento più adatto.</p>
             <Link href={`tel:${site.tel}`} className="block rounded-full bg-primary px-6 py-4 text-center font-extrabold text-white">{site.phone}</Link>
           </aside>
         </div>

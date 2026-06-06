@@ -1,5 +1,6 @@
 import { Cta } from "@/components/SiteSections";
 import { site } from "@/lib/site";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
@@ -10,11 +11,13 @@ export const metadata = {
 export default function ContactPage() {
   return (
     <main className="pt-24">
-      <section className="bg-slate-950 py-20 text-white">
-        <div className="container max-w-4xl">
+      <section className="relative overflow-hidden bg-slate-950 py-20 text-white">
+        <Image src="/images/towing/f-contact-main.jpg" alt="Contatto diretto con carroattrezzi a Ferrara" fill priority className="object-cover opacity-25" />
+        <div className="absolute inset-0 bg-slate-950/80" />
+        <div className="container relative max-w-4xl">
           <p className="mb-4 text-sm font-extrabold uppercase tracking-[0.25em] text-blue-300">contatti</p>
           <h1 className="mb-6 text-4xl font-black lg:text-6xl">Contatta il carroattrezzi a Ferrara</h1>
-          <p className="text-lg leading-8 text-slate-200">Per urgenze chiama direttamente. Per richieste programmate puoi inviare una email indicando veicolo, punto di ritiro, destinazione e orario preferito.</p>
+          <p className="text-lg leading-8 text-slate-200">Quando l’auto resta ferma, una risposta chiara vale più di mille promesse. Chiama per un intervento urgente oppure invia una richiesta programmata indicando veicolo, posizione, destinazione e fascia oraria preferita.</p>
         </div>
       </section>
       <section className="py-20">
@@ -36,6 +39,7 @@ export default function ContactPage() {
               <p><strong>Email:</strong> <Link href={`mailto:${site.email}`} className="text-primary">{site.email}</Link></p>
               <p><strong>Sede:</strong> {site.address}</p>
               <p><strong>Orari:</strong> assistenza per urgenze stradali 24 ore su 24.</p>
+              <p>Se il veicolo è in una posizione scomoda, comunica un punto preciso o invia un riferimento visibile. Questo permette di organizzare il recupero in modo più rapido e di scegliere subito la soluzione più adatta.</p>
             </div>
             <iframe title="Mappa Ferrara" className="mt-8 h-72 w-full rounded-2xl border-0" loading="lazy" src="https://www.google.com/maps?q=Via%20Mario%20Tenani%206%2044122%20Ferrara%20FE&output=embed" />
           </div>

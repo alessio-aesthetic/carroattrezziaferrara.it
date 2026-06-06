@@ -37,7 +37,7 @@ export default function Footer() {
           </div>
           <div className="w-full px-4 lg:w-3/12">
             <h4 className="mb-5 font-bold">Contatti rapidi</h4>
-            <p className="mb-5 text-sm text-slate-300">Per urgenze su strada chiama direttamente: e il modo piu veloce per organizzare il recupero.</p>
+            <p className="mb-5 text-sm text-slate-300">Per urgenze su strada chiama direttamente: è il modo più veloce per organizzare il recupero.</p>
             <Link href={`tel:${site.tel}`} className="inline-flex rounded-full bg-primary px-5 py-3 text-sm font-bold text-white hover:bg-blue-700">Chiama {site.phone}</Link>
           </div>
         </div>
