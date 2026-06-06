@@ -8,13 +8,7 @@ export default function Footer() {
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4 lg:w-4/12">
             <div className="mb-10">
-              <div className="mb-5 flex items-center gap-3">
-                <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-primary text-xl font-black">CA</span>
-                <div>
-                  <p className="text-xl font-extrabold">Carroattrezzi Ferrara</p>
-                  <p className="text-sm text-slate-400">soccorso stradale e traino auto</p>
-                </div>
-              </div>
+              <img src="/images/brand/logo-ferrara.webp" alt="Soccorso Stradale Ferrara" className="mb-5 h-auto w-64 max-w-full" />
               <p className="max-w-sm text-slate-300">Interventi per auto ferme, incidenti, trasporti programmati e assistenza stradale a Ferrara e provincia.</p>
               <div className="mt-6 space-y-2 text-sm text-slate-300">
                 <p>{site.address}</p>

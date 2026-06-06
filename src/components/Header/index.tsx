@@ -26,12 +26,8 @@ export default function Header() {
       <div className="container">
         <div className="relative -mx-4 flex items-center justify-between">
           <div className="w-64 max-w-full px-4">
-            <Link href="/" className="flex items-center gap-3 py-4">
-              <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-primary text-xl font-black text-white shadow-lg">CA</span>
-              <span className={`leading-tight ${light ? "text-slate-950" : "text-white"}`}>
-                <span className="block text-lg font-extrabold tracking-tight">Carroattrezzi Ferrara</span>
-                <span className="block text-xs font-semibold uppercase tracking-[0.22em] opacity-70">soccorso stradale</span>
-              </span>
+            <Link href="/" className="flex items-center py-4">
+              <img src="/images/brand/logo-ferrara.webp" alt="Soccorso Stradale Ferrara" className="h-auto w-56 max-w-full" />
             </Link>
           </div>
 
