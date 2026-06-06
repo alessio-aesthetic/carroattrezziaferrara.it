@@ -5,7 +5,7 @@ import Link from "next/link";
 export function Hero() {
   return (
     <section className="relative overflow-hidden bg-slate-950 pb-20 pt-36 lg:min-h-[760px] lg:pt-44">
-      <Image src="/images/towing/f-hero-main.jpg" alt="Carroattrezzi a Ferrara per traino auto" fill priority className="object-cover opacity-35" />
+      <Image src="/images/towing/f-hero-main.webp" alt="Carroattrezzi a Ferrara per traino auto" fill priority className="object-cover opacity-35" />
       <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/85 to-slate-950/25" />
       <div className="container relative">
         <div className="max-w-3xl">
@@ -47,7 +47,7 @@ export function HomeCopy() {
             </div>
           </div>
           <div className="relative h-[520px] overflow-hidden rounded-[2rem] bg-slate-100 shadow-2xl">
-            <Image src="/images/towing/f-home-detail.jpg" alt="Recupero veicolo con carroattrezzi" fill className="object-cover" />
+            <Image src="/images/towing/f-home-detail.webp" alt="Recupero veicolo con carroattrezzi" fill className="object-cover" />
           </div>
         </div>
       </div>
@@ -87,7 +87,7 @@ export function AboutBlock() {
       <div className="container">
         <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
           <div className="relative h-[460px] overflow-hidden rounded-[2rem]">
-            <Image src="/images/towing/f-about-main.jpg" alt="Assistenza tecnica per veicolo fermo" fill className="object-cover" />
+            <Image src="/images/towing/f-about-main.webp" alt="Assistenza tecnica per veicolo fermo" fill className="object-cover" />
           </div>
           <div>
             <p className="mb-4 text-sm font-extrabold uppercase tracking-[0.25em] text-primary">chi siamo</p>

@@ -17,7 +17,7 @@ export const metadata = {
     description: "Soccorso stradale, traino auto e recupero veicoli a Ferrara e provincia.",
     url: site.url,
     siteName: site.domain,
-    images: ["/images/towing/hero-tow-truck.jpg"],
+    images: ["/images/towing/f-hero-main.webp"],
     locale: "it_IT",
     type: "website",
   },

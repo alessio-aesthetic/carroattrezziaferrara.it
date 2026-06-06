@@ -18,7 +18,7 @@ export default function SeoSchema() {
     },
     areaServed: ["Ferrara", "Cento", "Comacchio", "Argenta", "Copparo", "Bondeno"],
     openingHours: "Mo-Su 00:00-23:59",
-    image: `${site.url}/images/towing/hero-tow-truck.jpg`,
+    image: `${site.url}/images/towing/f-hero-main.webp`,
     priceRange: "$$",
   };
 

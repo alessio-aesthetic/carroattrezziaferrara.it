@@ -12,7 +12,7 @@ export default function ContactPage() {
   return (
     <main className="pt-24">
       <section className="relative overflow-hidden bg-slate-950 py-20 text-white">
-        <Image src="/images/towing/f-contact-main.jpg" alt="Contatto diretto con carroattrezzi a Ferrara" fill priority className="object-cover opacity-25" />
+        <Image src="/images/towing/f-contact-main.webp" alt="Contatto diretto con carroattrezzi a Ferrara" fill priority className="object-cover opacity-25" />
         <div className="absolute inset-0 bg-slate-950/80" />
         <div className="container relative max-w-4xl">
           <p className="mb-4 text-sm font-extrabold uppercase tracking-[0.25em] text-blue-300">contatti</p>
