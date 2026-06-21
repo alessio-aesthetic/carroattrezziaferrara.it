@@ -3,7 +3,7 @@ import { AboutBlock, Cta, Faq, Hero, HomeCopy, ServicesGrid, TrustBar, Zones } f
 
 export const metadata = {
   title: "Carroattrezzi a Ferrara 24H | Soccorso Stradale Rapido",
-  description: "Carroattrezzi a Ferrara per traino auto, recupero veicoli, assistenza stradale e trasporto verso officina. Intervento rapido, chiama 0532 080237.",
+  description: "Carroattrezzi a Ferrara per traino auto, recupero veicoli, assistenza stradale e trasporto verso officina. Intervento rapido, chiama 0532 182 0746.",
 };
 
 export default function Home() {

@@ -11,7 +11,7 @@ export const metadata = {
     default: "Carroattrezzi a Ferrara 24H | Soccorso Stradale Rapido",
     template: "%s | Carroattrezzi Ferrara",
   },
-  description: "Carroattrezzi a Ferrara per soccorso stradale, traino auto, recupero veicoli e assistenza urgente. Chiama 0532 080237.",
+  description: "Carroattrezzi a Ferrara per soccorso stradale, traino auto, recupero veicoli e assistenza urgente. Chiama 0532 182 0746.",
   openGraph: {
     title: "Carroattrezzi a Ferrara 24H",
     description: "Soccorso stradale, traino auto e recupero veicoli a Ferrara e provincia.",

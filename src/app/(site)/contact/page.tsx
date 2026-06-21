@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export const metadata = {
   title: "Contatti",
-  description: "Contatta Carroattrezzi Ferrara: telefono 0532 080237, email assistenza@carroattrezziaferrara.it, sede in Via Mario Tenani 6.",
+  description: "Contatta Carroattrezzi Ferrara: telefono 0532 182 0746, email assistenza@carroattrezziaferrara.it, sede in Via Virginia Woolf 6.",
 };
 
 export default function ContactPage() {
