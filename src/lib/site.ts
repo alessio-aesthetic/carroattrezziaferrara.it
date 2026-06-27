@@ -2,10 +2,10 @@ export const site = {
   name: "Carroattrezzi a Ferrara",
   domain: "carroattrezziaferrara.it",
   url: "https://carroattrezziaferrara.it",
-  phone: "0532 182 0746",
-  tel: "+3905321820746",
+  phone: "0532 080206",
+  tel: "+390532080206",
   email: "assistenza@carroattrezziaferrara.it",
-  address: "Via Virginia Woolf, 6 - 44122 Ferrara FE",
+  address: "Via Renata Viganò, 3, 44124 Ferrara FE",
   city: "Ferrara",
   province: "FE",
 };

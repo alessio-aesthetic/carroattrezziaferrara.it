@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export const metadata = {
   title: "Contatti",
-  description: "Contatta Carroattrezzi Ferrara: telefono 0532 182 0746, email assistenza@carroattrezziaferrara.it, sede in Via Virginia Woolf 6.",
+  description: "Contatta Carroattrezzi Ferrara: telefono 0532 080206, email assistenza@carroattrezziaferrara.it, sede in Via Renata Viganò 3.",
 };
 
 export default function ContactPage() {
@@ -41,7 +41,7 @@ export default function ContactPage() {
               <p><strong>Orari:</strong> assistenza per urgenze stradali 24 ore su 24.</p>
               <p>Se il veicolo è in una posizione scomoda, comunica un punto preciso o invia un riferimento visibile. Questo permette di organizzare il recupero in modo più rapido e di scegliere subito la soluzione più adatta.</p>
             </div>
-            <iframe title="Mappa Ferrara" className="mt-8 h-72 w-full rounded-2xl border-0" loading="lazy" src="https://www.google.com/maps?q=Via%20Mario%20Tenani%206%2044122%20Ferrara%20FE&output=embed" />
+            <iframe title="Mappa Ferrara" className="mt-8 h-72 w-full rounded-2xl border-0" loading="lazy" src="https://www.google.com/maps?q=Via%20Renata%20Vigan%C3%B2%203%2044124%20Ferrara%20FE&output=embed" />
           </div>
         </div>
       </section>

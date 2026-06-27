@@ -10,8 +10,8 @@ export default function SeoSchema() {
     email: site.email,
     address: {
       "@type": "PostalAddress",
-      streetAddress: "Via Virginia Woolf, 6",
-      postalCode: "44122",
+      streetAddress: "Via Renata Viganò, 3",
+      postalCode: "44124",
       addressLocality: "Ferrara",
       addressRegion: "FE",
       addressCountry: "IT",
