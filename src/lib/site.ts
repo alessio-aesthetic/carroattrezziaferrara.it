@@ -5,7 +5,6 @@ export const site = {
   phone: "0532 080206",
   tel: "+390532080206",
   email: "assistenza@carroattrezziaferrara.it",
-  address: "Via Renata Viganò, 3, 44124 Ferrara FE",
   city: "Ferrara",
   province: "FE",
 };
