@@ -11,7 +11,7 @@ export default function Footer() {
               <img src="/images/brand/logo-ferrara.webp" alt="Soccorso Stradale Ferrara" className="mb-5 h-auto w-64 max-w-full" />
               <p className="max-w-sm text-slate-300">Interventi per auto ferme, incidenti, trasporti programmati e assistenza stradale a Ferrara e provincia.</p>
               <div className="mt-6 space-y-2 text-sm text-slate-300">
-                <p>{site.address}</p>
+                
                 <p><a href={`tel:${site.tel}`} className="hover:text-white">{site.phone}</a></p>
                 <p><a href={`mailto:${site.email}`} className="hover:text-white">{site.email}</a></p>
               </div>
