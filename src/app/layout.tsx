@@ -36,6 +36,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <ScrollToTop />
           </div>
         </Providers>
+      <script defer src="/privacy-notice.js" />
       </body>
     </html>
   );
